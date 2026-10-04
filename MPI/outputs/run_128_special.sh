@@ -24,11 +24,15 @@ export OMPI_MCA_btl_base_exclude=openib,ofi,usnic
 # 4. Exclude virtual network interfaces to ensure real Ethernet is used
 export OMPI_MCA_btl_tcp_if_exclude=lo,docker0,virbr0
 
+# Input files: override with SPMV_MATRIX / SPMV_VECTOR (see scripts/fetch_matrix.sh)
+SPMV_MATRIX=${SPMV_MATRIX:-data/nlpkkt240_matrix.bin}
+SPMV_VECTOR=${SPMV_VECTOR:-data/nlpkkt240_vector.bin}
+
 echo "=== Running 128-Process Special Configuration ==="
 echo "Configuration: PML=ob1, BTL=self,vader,tcp"
 
 # Run 5 times as required
 for i in {1..5}; do
     echo "Run $i/5..."
-    mpiexec -np 128 ./spmv_mpi
+    mpiexec -np 128 ./spmv_mpi "$SPMV_MATRIX" "$SPMV_VECTOR"
 done

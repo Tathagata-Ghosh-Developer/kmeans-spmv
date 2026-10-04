@@ -27,6 +27,10 @@ echo "=== Starting Extreme Scaling Experiments (128, 256, 512, 1024) ==="
 echo "Physical Cores Available: 288"
 echo "Configuration: --oversubscribe enabled for >288 processes"
 
+# Input files: override with SPMV_MATRIX / SPMV_VECTOR (see scripts/fetch_matrix.sh)
+SPMV_MATRIX=${SPMV_MATRIX:-data/nlpkkt240_matrix.bin}
+SPMV_VECTOR=${SPMV_VECTOR:-data/nlpkkt240_vector.bin}
+
 make clean
 make
 
@@ -39,7 +43,7 @@ for p in 128 256 512 1024; do
         
         # --oversubscribe: Allows >288 ranks on 288 cores
         # --map-by node: Distributes ranks round-robin across nodes to spread memory load
-        mpiexec --oversubscribe --map-by node -np $p ./spmv_mpi >> results_P${p}.txt 2>&1
+        mpiexec --oversubscribe --map-by node -np $p ./spmv_mpi "$SPMV_MATRIX" "$SPMV_VECTOR" >> results_P${p}.txt 2>&1
     done
     echo "Finished $p processes."
     echo "-----------------------"

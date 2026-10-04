@@ -11,6 +11,8 @@
 #include <algorithm>
 #include <fstream>
 #include <iomanip>
+#include <cstdlib>
+#include <string>
 
 // Helper to load only the specific part of the matrix required by this rank
 bool load_partial_matrix(const std::string& filename, 
@@ -72,6 +74,16 @@ bool load_partial_matrix(const std::string& filename,
     return true;
 }
 
+// Resolve an input path: command-line argument first, then environment
+// variable, then a default under data/.
+static std::string input_path(int argc, char** argv, int idx,
+                              const char* env_name, const char* fallback) {
+    if (argc > idx) return argv[idx];
+    const char* env = std::getenv(env_name);
+    if (env != nullptr && *env != '\0') return env;
+    return fallback;
+}
+
 int main(int argc, char** argv) {
     MPI_Init(&argc, &argv);
 
@@ -79,8 +91,12 @@ int main(int argc, char** argv) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-    const std::string matrix_file = "data/nlpkkt240_matrix.bin";
-    const std::string vector_file = "data/nlpkkt240_vector.bin";
+    // Usage: spmv_mpi [matrix.bin] [vector.bin]
+    // or set SPMV_MATRIX / SPMV_VECTOR (see scripts/fetch_matrix.sh).
+    const std::string matrix_file =
+        input_path(argc, argv, 1, "SPMV_MATRIX", "data/nlpkkt240_matrix.bin");
+    const std::string vector_file =
+        input_path(argc, argv, 2, "SPMV_VECTOR", "data/nlpkkt240_vector.bin");
 
     int n_global = 0;
     int nnz_global = 0;
@@ -93,7 +109,8 @@ int main(int argc, char** argv) {
     if (rank == 0) {
         std::ifstream file(matrix_file, std::ios::binary);
         if (!file.is_open()) {
-            std::cerr << "Error opening file on Rank 0" << std::endl;
+            std::cerr << "Rank 0: cannot open matrix file " << matrix_file
+                      << " (pass it as argv[1] or set SPMV_MATRIX)" << std::endl;
             MPI_Abort(MPI_COMM_WORLD, 1);
         }
         file.read(reinterpret_cast<char*>(&n_global), sizeof(int));

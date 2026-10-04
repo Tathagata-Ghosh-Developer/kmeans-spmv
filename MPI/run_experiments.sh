@@ -15,6 +15,10 @@ export OMPI_MCA_pml=ob1
 export OMPI_MCA_btl=tcp,self
 export OMPI_MCA_btl_base_exclude=openib,ofi,usnic
 
+# Input files: override with SPMV_MATRIX / SPMV_VECTOR (see scripts/fetch_matrix.sh)
+SPMV_MATRIX=${SPMV_MATRIX:-data/nlpkkt240_matrix.bin}
+SPMV_VECTOR=${SPMV_VECTOR:-data/nlpkkt240_vector.bin}
+
 # Ensure clean build
 make clean
 make
@@ -31,7 +35,7 @@ for p in 1 2 4 8 16 32 64 128; do
     for i in {1..5}; do
         echo "  Run $i/5 for $p procs"
         # The environment variables exported above will automatically apply to mpiexec
-        mpiexec -np $p ./spmv_mpi >> results_P${p}.txt 2>&1
+        mpiexec -np $p ./spmv_mpi "$SPMV_MATRIX" "$SPMV_VECTOR" >> results_P${p}.txt 2>&1
     done
     echo "Finished $p processes."
     echo "-----------------------"
