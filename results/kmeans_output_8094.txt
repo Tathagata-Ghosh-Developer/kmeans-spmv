@@ -1,0 +1,43 @@
+rm -f kmeans_sequential kmeans_parallel *.o
+g++ -std=c++17 -O3 -march=native -fopenmp kmeans_sequential.cpp -o kmeans_sequential
+g++ -std=c++17 -O3 -march=native -fopenmp kmeans_parallel.cpp -o kmeans_parallel
+Running sequential version 30 times for K=20...
+  Run 1: 25.0378 ms
+  Run 2: 25.1261 ms
+  Run 3: 24.9376 ms
+  Run 4: 25.0177 ms
+  Run 5: 25.0011 ms
+  Run 6: 25.1029 ms
+  Run 7: 25.0044 ms
+  Run 8: 25.0649 ms
+  Run 9: 25.1024 ms
+  Run 10: 25.0067 ms
+  Run 11: 25.1554 ms
+  Run 12: 25.0460 ms
+  Run 13: 25.1106 ms
+  Run 14: 25.0850 ms
+  Run 15: 25.1451 ms
+  Run 16: 25.0589 ms
+  Run 17: 24.9531 ms
+  Run 18: 24.9420 ms
+  Run 19: 25.1170 ms
+  Run 20: 25.1276 ms
+  Run 21: 25.0641 ms
+  Run 22: 24.9894 ms
+  Run 23: 25.0297 ms
+  Run 24: 25.0044 ms
+  Run 25: 25.1545 ms
+  Run 26: 25.1059 ms
+  Run 27: 25.1667 ms
+  Run 28: 25.0973 ms
+  Run 29: 25.0497 ms
+  Run 30: 25.0705 ms
+Average Sequential Time: 25.0625 ms
+
+Benchmarking parallel version for various thread counts and schedules (each averaged over 30 runs)...
+Threads,Static_avg_ms,Dynamic_avg_ms
+4,7.5199,60.9832
+8,5.0475,60.6438
+16,3.6842,61.8889
+32,3.4876,65.4441
+All cluster outputs saved to cluster_outputs.csv

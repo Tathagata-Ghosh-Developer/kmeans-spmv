@@ -1,0 +1,31 @@
+# Private study notes
+notes/
+
+# Build outputs
+MPI/spmv_mpi
+OpenMP/kmeans_sequential
+OpenMP/kmeans_parallel
+*.o
+
+# Large inputs (fetch with scripts/fetch_matrix.sh)
+data/
+*.mtx
+*.tar.gz
+*.bin
+
+# Run logs written by the SLURM scripts
+MPI/results_P*.txt
+MPI/spmv_*.log
+MPI/spmv_*.err
+MPI/spmv_128_error.txt
+OpenMP/kmeans_output_*.txt
+OpenMP/kmeans_error_*.txt
+OpenMP/cluster_outputs.csv
+
+# Python / editors
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.vscode/
+*.pdf
+*.zip
