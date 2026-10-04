@@ -48,7 +48,7 @@ double spmv_mpi(const LocalCSRMatrix& local_A, const std::vector<double>& x_glob
     MPI_Gather(&local_n, 1, MPI_INT, recvcounts.data(), 1, MPI_INT, 0, comm);
 
     if (rank == 0) {
-        displs = 0;
+        displs[0] = 0;
         for (int i = 1; i < size; i++) {
             displs[i] = displs[i - 1] + recvcounts[i - 1];
         }
@@ -138,7 +138,7 @@ void partition_and_scatter_matrix(const CSRMatrix& A_global, LocalCSRMatrix& A_l
     if (rank == 0) {
         sc_counts = send_nnz_counts;
         sc_displs.resize(size);
-        sc_displs = 0;
+        sc_displs[0] = 0;
         for(int i=1; i<size; ++i) 
             sc_displs[i] = sc_displs[i-1] + sc_counts[i-1];
     }
@@ -154,9 +154,9 @@ void partition_and_scatter_matrix(const CSRMatrix& A_global, LocalCSRMatrix& A_l
     // Distribute Row Pointers (manual send to adjust offsets)
     if (rank == 0) {
         // Rank 0 sets its own
-        int r0_start = send_row_starts;
+        int r0_start = send_row_starts[0];
         int r0_offset = A_global.row_ptr[r0_start];
-        for(int i=0; i <= send_row_counts; ++i) {
+        for(int i=0; i <= send_row_counts[0]; ++i) {
             A_local.row_ptr[i] = A_global.row_ptr[r0_start + i] - r0_offset;
         }
 
