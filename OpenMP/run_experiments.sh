@@ -1,7 +1,7 @@
 #!/bin/bash
 K=${1:-20}
-REPEAT=5  # number of runs to average for each configuration
-THREADS_LIST="4 8 16 32"
+REPEAT=${REPEAT:-5}  # runs averaged per configuration (results/ used REPEAT=30)
+THREADS_LIST=${THREADS_LIST:-"4 8 16 32"}
 SCHEDULES="static dynamic"
 DATAFILE="data_20k.csv"
 CLUSTER_CSV="cluster_outputs.csv"

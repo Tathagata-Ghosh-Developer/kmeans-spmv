@@ -11,5 +11,6 @@ make all
 
 chmod +x run_experiments.sh
 
-# Running the experiments (with K=20 clusters)
-./run_experiments.sh 20
+# Running the experiments (with K=20 clusters).
+# results/kmeans_output_8094.txt was produced with REPEAT=30.
+REPEAT=${REPEAT:-30} ./run_experiments.sh 20
