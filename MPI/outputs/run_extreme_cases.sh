@@ -1,9 +1,14 @@
 #!/bin/bash
+# Exploratory job for P = 256..1024 (oversubscribed). These runs did not
+# complete: mpirun reported ORTE daemon launch failures and /dev/shm ran
+# out of space for the shared-memory transport, so no results beyond
+# P = 128 are reported. The reported numbers come from run_experiments.sh
+# and run_128_special.sh (4 nodes, 128 tasks).
 #SBATCH --job-name=spmv_extreme
 #SBATCH --output=spmv_extreme_%j.log
 #SBATCH --error=spmv_extreme_%j.err
-#SBATCH --nodes=6                   # Use ALL 8 compute nodes
-#SBATCH --ntasks=288                # Request all available physical cores
+#SBATCH --nodes=6                   # 6 nodes x 48 cores
+#SBATCH --ntasks=288                # = 288 physical cores
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
 # Partition and node exclusions are site-specific; pass them at submit time,
