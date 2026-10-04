@@ -11,6 +11,17 @@ if ! [ -x "./kmeans_sequential" ] || ! [ -x "./kmeans_parallel" ]; then
     make || { echo "Build failed! Exiting."; exit 1; }
 fi
 
+# Append one CSV row per cluster from a program's output.
+# Input lines look like: "Centroid 3: (-1166.2891, 353.4936), Size: 1012"
+# With -F '[():,]' the fields are $1="Centroid 3", $3=x, $4=y, $7=size.
+append_clusters() {
+    echo "$1" | grep -E "^Centroid" | awk -F '[():,]' -v mode="$2" -v threads="$3" '{
+        sub(/^Centroid /, "", $1)
+        gsub(/ /, "", $3); gsub(/ /, "", $4); gsub(/ /, "", $7)
+        printf("%s,%s,%s,%s,%s,%s\n", mode, threads, $1, $7, $3, $4)
+    }' >> "$CLUSTER_CSV"
+}
+
 rm -f "$CLUSTER_CSV"
 echo "Mode,Threads,ClusterIndex,PointCount,CentroidX,CentroidY" > "$CLUSTER_CSV"
 
@@ -24,7 +35,7 @@ for (( run=1; run<=REPEAT; run++ )); do
     echo "  Run $run: ${time_val} ms"
 
     if [ $run -eq $REPEAT ]; then
-        echo "$output" | grep -E "^Centroid|^Cluster" | awk -F '[():,]' -v mode="Sequential" -v threads="1" '{gsub(/Centroid |Cluster /, "", $1); gsub(/Size|points/, "", $2); printf("%s,%s,%s,%s,%s,%s\n", mode, threads, $1, $2, $3, $4)}' >> "$CLUSTER_CSV"
+        append_clusters "$output" Sequential 1
     fi
 
 done
@@ -44,7 +55,7 @@ for t in $THREADS_LIST; do
         time_static=$(echo "$out_static" | grep "Time" | awk '{print $2}')
         times_static+="$time_static\n"
         if [ $run -eq $REPEAT ]; then
-            echo "$out_static" | grep -E "^Centroid|^Cluster" | awk -F '[():,]' -v mode="Static" -v threads="$t" '{gsub(/Centroid |Cluster /, "", $1); gsub(/Size|points/, "", $2); printf("%s,%s,%s,%s,%s,%s\n", mode, threads, $1, $2, $3, $4)}' >> "$CLUSTER_CSV"
+            append_clusters "$out_static" Static "$t"
         fi
     done
 
@@ -53,7 +64,7 @@ for t in $THREADS_LIST; do
         time_dynamic=$(echo "$out_dynamic" | grep "Time" | awk '{print $2}')
         times_dynamic+="$time_dynamic\n"
         if [ $run -eq $REPEAT ]; then
-            echo "$out_dynamic" | grep -E "^Centroid|^Cluster" | awk -F '[():,]' -v mode="Dynamic" -v threads="$t" '{gsub(/Centroid |Cluster /, "", $1); gsub(/Size|points/, "", $2); printf("%s,%s,%s,%s,%s,%s\n", mode, threads, $1, $2, $3, $4)}' >> "$CLUSTER_CSV"
+            append_clusters "$out_dynamic" Dynamic "$t"
         fi
     done
 
