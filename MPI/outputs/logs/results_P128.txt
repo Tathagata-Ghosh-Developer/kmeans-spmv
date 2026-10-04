@@ -1,0 +1,728 @@
+=== Running 128-Process Special Configuration ===
+Configuration: PML=ob1, BTL=self,vader,tcp
+Run 1/5...
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 128
+Max Time: 0.016735 s
+Min Time: 0.011030 s
+Avg Time: 0.012093 s
+Load Imbalance: 0.517193
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Run 2/5...
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 128
+Max Time: 0.016830 s
+Min Time: 0.011413 s
+Avg Time: 0.012315 s
+Load Imbalance: 0.474596
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Run 3/5...
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 128
+Max Time: 0.016685 s
+Min Time: 0.011485 s
+Avg Time: 0.012313 s
+Load Imbalance: 0.452813
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Run 4/5...
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 128
+Max Time: 0.016686 s
+Min Time: 0.011249 s
+Avg Time: 0.012217 s
+Load Imbalance: 0.483382
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Run 5/5...
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 128
+Max Time: 0.016978 s
+Min Time: 0.011424 s
+Avg Time: 0.012344 s
+Load Imbalance: 0.486245
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+---------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------

@@ -1,0 +1,691 @@
+---------------------------------
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 64
+Max Time: 0.030917 s
+Min Time: 0.023061 s
+Avg Time: 0.024654 s
+Load Imbalance: 0.340664
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+
+--- Per-Process Times (for plotting) ---
+Rank 0: 0.030917
+Rank 1: 0.030880
+Rank 2: 0.026855
+Rank 3: 0.025426
+Rank 4: 0.025103
+Rank 5: 0.025233
+Rank 6: 0.024200
+Rank 7: 0.025205
+Rank 8: 0.024981
+Rank 9: 0.025399
+Rank 10: 0.025057
+Rank 11: 0.024852
+Rank 12: 0.025167
+Rank 13: 0.025001
+Rank 14: 0.025122
+Rank 15: 0.025001
+Rank 16: 0.024790
+Rank 17: 0.024976
+Rank 18: 0.025274
+Rank 19: 0.024263
+Rank 20: 0.024993
+Rank 21: 0.024627
+Rank 22: 0.025352
+Rank 23: 0.024990
+Rank 24: 0.025300
+Rank 25: 0.024568
+Rank 26: 0.024383
+Rank 27: 0.025020
+Rank 28: 0.024992
+Rank 29: 0.024430
+Rank 30: 0.025003
+Rank 31: 0.024801
+Rank 32: 0.023773
+Rank 33: 0.024130
+Rank 34: 0.023721
+Rank 35: 0.023564
+Rank 36: 0.024086
+Rank 37: 0.024066
+Rank 38: 0.024208
+Rank 39: 0.023882
+Rank 40: 0.024252
+Rank 41: 0.024047
+Rank 42: 0.023833
+Rank 43: 0.023761
+Rank 44: 0.023865
+Rank 45: 0.023782
+Rank 46: 0.023928
+Rank 47: 0.024097
+Rank 48: 0.024080
+Rank 49: 0.023842
+Rank 50: 0.024180
+Rank 51: 0.023061
+Rank 52: 0.024241
+Rank 53: 0.023907
+Rank 54: 0.024318
+Rank 55: 0.023554
+Rank 56: 0.023579
+Rank 57: 0.023688
+Rank 58: 0.024185
+Rank 59: 0.023707
+Rank 60: 0.023724
+Rank 61: 0.024146
+Rank 62: 0.024149
+Rank 63: 0.024361
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 64
+Max Time: 0.030747 s
+Min Time: 0.022997 s
+Avg Time: 0.024603 s
+Load Imbalance: 0.337018
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+
+--- Per-Process Times (for plotting) ---
+Rank 0: 0.030747
+Rank 1: 0.030729
+Rank 2: 0.026842
+Rank 3: 0.025546
+Rank 4: 0.025347
+Rank 5: 0.024858
+Rank 6: 0.025631
+Rank 7: 0.024648
+Rank 8: 0.024262
+Rank 9: 0.025655
+Rank 10: 0.025413
+Rank 11: 0.025040
+Rank 12: 0.025202
+Rank 13: 0.025699
+Rank 14: 0.025354
+Rank 15: 0.024983
+Rank 16: 0.025270
+Rank 17: 0.024513
+Rank 18: 0.025318
+Rank 19: 0.024551
+Rank 20: 0.024680
+Rank 21: 0.024501
+Rank 22: 0.025449
+Rank 23: 0.025058
+Rank 24: 0.025336
+Rank 25: 0.025272
+Rank 26: 0.024503
+Rank 27: 0.025227
+Rank 28: 0.025214
+Rank 29: 0.025265
+Rank 30: 0.025392
+Rank 31: 0.024941
+Rank 32: 0.023591
+Rank 33: 0.023869
+Rank 34: 0.023770
+Rank 35: 0.023696
+Rank 36: 0.023508
+Rank 37: 0.023744
+Rank 38: 0.023992
+Rank 39: 0.023763
+Rank 40: 0.023028
+Rank 41: 0.023649
+Rank 42: 0.023615
+Rank 43: 0.023667
+Rank 44: 0.023663
+Rank 45: 0.022997
+Rank 46: 0.023728
+Rank 47: 0.023577
+Rank 48: 0.023749
+Rank 49: 0.023792
+Rank 50: 0.024052
+Rank 51: 0.023721
+Rank 52: 0.023751
+Rank 53: 0.023931
+Rank 54: 0.023714
+Rank 55: 0.023761
+Rank 56: 0.023828
+Rank 57: 0.023758
+Rank 58: 0.023520
+Rank 59: 0.023983
+Rank 60: 0.023822
+Rank 61: 0.023782
+Rank 62: 0.023693
+Rank 63: 0.023448
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 64
+Max Time: 0.030903 s
+Min Time: 0.022961 s
+Avg Time: 0.024638 s
+Load Imbalance: 0.345874
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+
+--- Per-Process Times (for plotting) ---
+Rank 0: 0.030556
+Rank 1: 0.030903
+Rank 2: 0.026966
+Rank 3: 0.025279
+Rank 4: 0.025381
+Rank 5: 0.025101
+Rank 6: 0.025380
+Rank 7: 0.024846
+Rank 8: 0.024792
+Rank 9: 0.025491
+Rank 10: 0.025023
+Rank 11: 0.025532
+Rank 12: 0.025190
+Rank 13: 0.025614
+Rank 14: 0.024549
+Rank 15: 0.025073
+Rank 16: 0.025352
+Rank 17: 0.025172
+Rank 18: 0.024803
+Rank 19: 0.024503
+Rank 20: 0.025245
+Rank 21: 0.025580
+Rank 22: 0.025291
+Rank 23: 0.025050
+Rank 24: 0.025288
+Rank 25: 0.025486
+Rank 26: 0.025045
+Rank 27: 0.025433
+Rank 28: 0.025358
+Rank 29: 0.025476
+Rank 30: 0.025264
+Rank 31: 0.025116
+Rank 32: 0.022972
+Rank 33: 0.024023
+Rank 34: 0.023824
+Rank 35: 0.023714
+Rank 36: 0.023795
+Rank 37: 0.023815
+Rank 38: 0.023963
+Rank 39: 0.023520
+Rank 40: 0.023631
+Rank 41: 0.023762
+Rank 42: 0.023516
+Rank 43: 0.023888
+Rank 44: 0.023718
+Rank 45: 0.023585
+Rank 46: 0.023787
+Rank 47: 0.023483
+Rank 48: 0.022961
+Rank 49: 0.023756
+Rank 50: 0.023775
+Rank 51: 0.023968
+Rank 52: 0.023881
+Rank 53: 0.023634
+Rank 54: 0.023924
+Rank 55: 0.023553
+Rank 56: 0.023746
+Rank 57: 0.023853
+Rank 58: 0.023567
+Rank 59: 0.023610
+Rank 60: 0.023789
+Rank 61: 0.023560
+Rank 62: 0.023653
+Rank 63: 0.023454
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 64
+Max Time: 0.031048 s
+Min Time: 0.022896 s
+Avg Time: 0.024609 s
+Load Imbalance: 0.356041
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+
+--- Per-Process Times (for plotting) ---
+Rank 0: 0.031048
+Rank 1: 0.030705
+Rank 2: 0.026866
+Rank 3: 0.024810
+Rank 4: 0.025317
+Rank 5: 0.025202
+Rank 6: 0.025295
+Rank 7: 0.025105
+Rank 8: 0.024645
+Rank 9: 0.025065
+Rank 10: 0.025275
+Rank 11: 0.025023
+Rank 12: 0.024937
+Rank 13: 0.024662
+Rank 14: 0.024965
+Rank 15: 0.024987
+Rank 16: 0.024880
+Rank 17: 0.025140
+Rank 18: 0.025278
+Rank 19: 0.025272
+Rank 20: 0.025013
+Rank 21: 0.025292
+Rank 22: 0.025293
+Rank 23: 0.025396
+Rank 24: 0.025332
+Rank 25: 0.024719
+Rank 26: 0.025132
+Rank 27: 0.025246
+Rank 28: 0.024869
+Rank 29: 0.024854
+Rank 30: 0.024461
+Rank 31: 0.025273
+Rank 32: 0.023437
+Rank 33: 0.022896
+Rank 34: 0.023541
+Rank 35: 0.023222
+Rank 36: 0.024356
+Rank 37: 0.023672
+Rank 38: 0.023746
+Rank 39: 0.023622
+Rank 40: 0.023335
+Rank 41: 0.024181
+Rank 42: 0.024135
+Rank 43: 0.024030
+Rank 44: 0.024348
+Rank 45: 0.023686
+Rank 46: 0.023949
+Rank 47: 0.023954
+Rank 48: 0.023789
+Rank 49: 0.023386
+Rank 50: 0.023510
+Rank 51: 0.023929
+Rank 52: 0.023955
+Rank 53: 0.023566
+Rank 54: 0.023753
+Rank 55: 0.023795
+Rank 56: 0.023902
+Rank 57: 0.023096
+Rank 58: 0.024105
+Rank 59: 0.023783
+Rank 60: 0.024111
+Rank 61: 0.023752
+Rank 62: 0.023531
+Rank 63: 0.023531
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 64
+Max Time: 0.031108 s
+Min Time: 0.023075 s
+Avg Time: 0.024547 s
+Load Imbalance: 0.348083
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+
+--- Per-Process Times (for plotting) ---
+Rank 0: 0.031108
+Rank 1: 0.030792
+Rank 2: 0.026630
+Rank 3: 0.024827
+Rank 4: 0.025356
+Rank 5: 0.025110
+Rank 6: 0.025230
+Rank 7: 0.025140
+Rank 8: 0.025258
+Rank 9: 0.025364
+Rank 10: 0.024944
+Rank 11: 0.025037
+Rank 12: 0.025216
+Rank 13: 0.024024
+Rank 14: 0.024831
+Rank 15: 0.025075
+Rank 16: 0.025231
+Rank 17: 0.025310
+Rank 18: 0.025420
+Rank 19: 0.025260
+Rank 20: 0.025026
+Rank 21: 0.024880
+Rank 22: 0.025278
+Rank 23: 0.025041
+Rank 24: 0.024187
+Rank 25: 0.025364
+Rank 26: 0.025145
+Rank 27: 0.024450
+Rank 28: 0.024523
+Rank 29: 0.024719
+Rank 30: 0.025136
+Rank 31: 0.025069
+Rank 32: 0.023621
+Rank 33: 0.023229
+Rank 34: 0.023814
+Rank 35: 0.023711
+Rank 36: 0.023759
+Rank 37: 0.024121
+Rank 38: 0.023664
+Rank 39: 0.023319
+Rank 40: 0.023562
+Rank 41: 0.023922
+Rank 42: 0.023979
+Rank 43: 0.023715
+Rank 44: 0.023772
+Rank 45: 0.023700
+Rank 46: 0.023526
+Rank 47: 0.023341
+Rank 48: 0.023588
+Rank 49: 0.023477
+Rank 50: 0.024075
+Rank 51: 0.023760
+Rank 52: 0.023445
+Rank 53: 0.023662
+Rank 54: 0.023663
+Rank 55: 0.023658
+Rank 56: 0.023379
+Rank 57: 0.023815
+Rank 58: 0.023811
+Rank 59: 0.023811
+Rank 60: 0.024043
+Rank 61: 0.023075
+Rank 62: 0.023518
+Rank 63: 0.023464

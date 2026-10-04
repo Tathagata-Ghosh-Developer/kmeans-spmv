@@ -1,0 +1,121 @@
+---------------------------------
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 16
+Max Time: 0.063081 s
+Min Time: 0.051183 s
+Avg Time: 0.052833 s
+Load Imbalance: 0.232468
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 16
+Max Time: 0.062312 s
+Min Time: 0.051538 s
+Avg Time: 0.053023 s
+Load Imbalance: 0.209035
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 16
+Max Time: 0.062348 s
+Min Time: 0.051268 s
+Avg Time: 0.052947 s
+Load Imbalance: 0.216118
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 16
+Max Time: 0.062947 s
+Min Time: 0.051192 s
+Avg Time: 0.052740 s
+Load Imbalance: 0.229624
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 16
+Max Time: 0.062532 s
+Min Time: 0.051257 s
+Avg Time: 0.053046 s
+Load Imbalance: 0.219972
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965

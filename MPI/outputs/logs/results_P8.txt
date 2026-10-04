@@ -1,0 +1,81 @@
+---------------------------------
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 8
+Max Time: 0.082292 s
+Min Time: 0.070066 s
+Avg Time: 0.072406 s
+Load Imbalance: 0.174478
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 8
+Max Time: 0.081653 s
+Min Time: 0.069982 s
+Avg Time: 0.071809 s
+Load Imbalance: 0.166765
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 8
+Max Time: 0.080037 s
+Min Time: 0.069481 s
+Avg Time: 0.071902 s
+Load Imbalance: 0.151925
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 8
+Max Time: 0.081115 s
+Min Time: 0.069909 s
+Avg Time: 0.071892 s
+Load Imbalance: 0.160293
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Vector loaded: size = 27993600
+Processors: 8
+Max Time: 0.080278 s
+Min Time: 0.069841 s
+Avg Time: 0.072124 s
+Load Imbalance: 0.149437
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965

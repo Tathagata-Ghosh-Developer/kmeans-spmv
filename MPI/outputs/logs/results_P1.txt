@@ -1,0 +1,46 @@
+---------------------------------
+Vector loaded: size = 27993600
+Processors: 1
+Max Time: 0.368485 s
+Min Time: 0.368485 s
+Avg Time: 0.368485 s
+Load Imbalance: 0.000000
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Processors: 1
+Max Time: 0.366699 s
+Min Time: 0.366699 s
+Avg Time: 0.366699 s
+Load Imbalance: 0.000000
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Processors: 1
+Max Time: 0.367394 s
+Min Time: 0.367394 s
+Avg Time: 0.367394 s
+Load Imbalance: 0.000000
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Processors: 1
+Max Time: 0.367379 s
+Min Time: 0.367379 s
+Avg Time: 0.367379 s
+Load Imbalance: 0.000000
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
+Vector loaded: size = 27993600
+Processors: 1
+Max Time: 0.367541 s
+Min Time: 0.367541 s
+Avg Time: 0.367541 s
+Load Imbalance: 0.000000
+y[0] = 0.014195
+y[mid] = 4.623217
+y[end] = -42.618965
